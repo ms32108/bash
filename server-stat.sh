@@ -1,4 +1,4 @@
 #!bin/bash
 # -----------------------------
-# Server Performance Stats Script (Using echo)
+# Server Performance Stats Script
 # -----------------------------
