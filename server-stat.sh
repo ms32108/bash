@@ -12,3 +12,8 @@ top -bn1 | grep -E "Cpu|%Cpu"
 echo ""
 echo "=== Memory Usage ==="
 free -h
+
+# Disk usage 
+echo ""
+echo "=== Disk Usage ==="
+df -h --total
