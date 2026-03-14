@@ -17,3 +17,10 @@ free -h
 echo ""
 echo "=== Disk Usage ==="
 df -h --total
+
+
+# Top 5 Processes by CPU
+echo ""
+echo "=== Top 5 Processes by CPU ==="
+ps -eo pid,comm,%cpu --sort=-%cpu | head -n 6
+
