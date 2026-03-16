@@ -29,3 +29,11 @@ ps -eo pid,comm,%cpu --sort=-%cpu | head -n 6
 echo ""
 echo "=== Top 5 Processes by Memory ==="
 ps -eo pid,comm,%mem --sort=-%mem | head -n 6
+
+
+# Optional Stretch Stats
+echo ""
+echo "=== System Info ==="
+uname -a
+uptime
+who
