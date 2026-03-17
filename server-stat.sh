@@ -37,3 +37,7 @@ echo "=== System Info ==="
 uname -a
 uptime
 who
+
+# to make in exetable run this
+-->chmod +x server-stats-echo.sh
+# finally ./server-stats-echo.sh
